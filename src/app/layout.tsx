@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Layout_main from "@/components/layout_main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,25 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1 className="flex justify-center font-bold text-3xl my-10">
-          빨강의 Nextjs Room
-        </h1>
-        <div className="ml-40 mr-40 text-center py-5 border-y-2 ">
-          <div className="flex justify-between mx-10">
-            <Link className="bg-red-400 w-[200px]" href="/">
-              home
-            </Link>
-            <Link className="bg-red-400 w-[200px]" href="/todo">
-              todo
-            </Link>
-            <Link className="bg-red-400 w-[200px]" href="/coin">
-              coin
-            </Link>
-            <Link className="bg-red-400 w-[200px]" href="/movie">
-              movie
-            </Link>
-          </div>
-        </div>
+        <Layout_main />
         <div>{children}</div>
       </body>
     </html>

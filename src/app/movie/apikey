@@ -1,0 +1,24 @@
+TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use. You can find the logos for attribution here.
+
+문서
+Our primary documentation is located at developer.themoviedb.org.
+
+지원
+If you have questions or comments about the information covered here, please create a post on our support forums.
+
+API 세부 정보
+If you'd like to edit the details of your app, click here.
+
+const key = "23991b584145d289937d9d0e53b20fab";
+
+API 키 (v3 auth)
+23991b584145d289937d9d0e53b20fab
+API 요청 예
+https://api.themoviedb.org/3/movie/550?api_key=23991b584145d289937d9d0e53b20fab
+API 읽기 액세스 토큰 (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzk5MWI1ODQxNDVkMjg5OTM3ZDlkMGU1M2IyMGZhYiIsInN1YiI6IjY0NjlhMGRiMmJjZjY3MDE3MmIxOWQ3MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KeStmZ51NEhhVStQlX-PkZQ4UP2ym-qz714fHXx3JQw
+
+마블 캐릭터 리스트를 받을 수 있는 API : 
+"https://marvel-proxy.nomadcoders.workers.dev/v1/public/characters?limit=50&orderBy=modified&series=24229,1058,2023"
+각 캐릭터의 디테일을 받을 수 있는 API : 
+"https://marvel-proxy.nomadcoders.workers.dev/v1/public/characters/:id" (replace :id for a real number ID)
