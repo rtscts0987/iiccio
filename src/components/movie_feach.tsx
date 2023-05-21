@@ -24,7 +24,7 @@ export default function Movie_feach() {
       <div>
         {loding
           ? movies.map((movie: any) => (
-              <Mavel id={movie.id} name={movie.name} />
+              <Mavel key={movie.id} id={movie.id} name={movie.name} />
             ))
           : ""}
       </div>

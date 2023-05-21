@@ -22,7 +22,7 @@ export default function Coin() {
       ) : (
         <select className="text-red-600">
           {coins.map((coin: any) => (
-            <option className="text-red-600">
+            <option key={coin.name} className="text-red-600">
               {coin.name} ({coin.symbol}): ${coin.quotes.USD.price} USD
             </option>
           ))}

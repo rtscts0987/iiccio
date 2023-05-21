@@ -11,9 +11,6 @@ export default function Movie_character_feach({ id }: Data) {
   const [loding, setLoading] = useState(false);
 
   const getMovies = async () => {
-    console.log(
-      "https://marvel-proxy.nomadcoders.workers.dev/v1/public/characters/" + id
-    );
     const json = await (
       await fetch(
         "https://marvel-proxy.nomadcoders.workers.dev/v1/public/characters/" +
@@ -32,7 +29,11 @@ export default function Movie_character_feach({ id }: Data) {
       <div>
         {loding
           ? movies.map((movie: any) => (
-              <MavelCaractor name={movie.name} thumbnail={movie.thumbnail} />
+              <MavelCaractor
+                key={movie.id}
+                name={movie.name}
+                thumbnail={movie.thumbnail}
+              />
             ))
           : ""}
       </div>

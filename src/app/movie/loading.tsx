@@ -1,7 +1,7 @@
 export default function loading() {
   return (
     <>
-      <h1> Red's Movie Loding~! </h1>
+      <h1> Red Movie Loding~! </h1>
     </>
   );
 }

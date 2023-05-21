@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 export const metadata = {
   title: "Nomad Coder BBalgang Movie",
@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default function movieIntro() {
-  const router = useRouter();
+  // const router = useRouter();
   // useRouter("/movie");
   return (
     <>

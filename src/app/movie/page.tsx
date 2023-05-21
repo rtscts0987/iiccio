@@ -11,7 +11,7 @@ export default function movie() {
     <>
       <Github />
       <div className="w-[50%] h-[100%] bg-black">
-        <h1 className="bg-red-500">Mavel's Characters List</h1>
+        <h1 className="bg-red-500">Mavel Characters List</h1>
       </div>
       <Movie_feach />
     </>
