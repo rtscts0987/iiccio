@@ -1,4 +1,4 @@
-import Movie_character_feach from "@/components/movie_charictor_feach";
+import Movie_character_feach from "@/components/NomadCoder/NomadCodeChallenge/Movie/movie_charictor_feach";
 
 interface Props {
   params: {

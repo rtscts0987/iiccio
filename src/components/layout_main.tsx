@@ -21,21 +21,28 @@ export default function Layout_main() {
         menu
       </button>
       <div className={hidden ? "hidden" : ""}>
-        <h1 className="flex justify-center font-bold text-3xl my-10">
+        <h1 className="flex justify-center font-bold text-3xl my-2">
           빨강의 Nextjs Room
         </h1>
-        <div className="ml-40 mr-40 text-center py-5 border-y-2 ">
-          <div className="flex justify-between mx-10">
-            <Link className="bg-red-400 w-[200px]" href="/">
+        <div className="ml-40 mr-40 text-center py-3 border-y-2 ">
+          <div className="flex justify-between my-1">
+            <Link className="bg-red-400 w-[100%] px-1" href="/">
               home
             </Link>
-            <Link className="bg-red-400 w-[200px]" href="/todo">
+          </div>
+
+          <div className="flex justify-between mx-5">
+            <Link className="bg-sky-600 w-[150px]" href="/todo">
               todo
             </Link>
-            <Link className="bg-red-400 w-[200px]" href="/coin">
+
+            <Link className="bg-yellow-600 w-[150px]" href={"/calculator"}>
+              calculator
+            </Link>
+            <Link className="bg-sky-600 w-[150px]" href="/coin">
               coin
             </Link>
-            <Link className="bg-red-400 w-[200px]" href="/movie">
+            <Link className="bg-green-600 w-[150px]" href="/movie">
               movie
             </Link>
           </div>

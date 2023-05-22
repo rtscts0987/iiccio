@@ -1,5 +1,5 @@
 import Github from "@/components/github";
-import Movie_feach from "@/components/movie_feach";
+import Movie_feach from "@/components/NomadCoder/NomadCodeChallenge/Movie/movie_feach";
 
 export const metadata = {
   title: "Nomad Coder BBalgang Movie",
