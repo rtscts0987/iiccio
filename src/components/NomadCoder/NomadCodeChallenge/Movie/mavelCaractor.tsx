@@ -9,7 +9,7 @@ interface Character {
 }
 
 export default function MavelCaractor({ name, thumbnail }: Character) {
-  console.log(thumbnail.path + "." + thumbnail.extension);
+  // console.log(thumbnail.path + "." + thumbnail.extension);
   return (
     <>
       <div>

@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Layout_main />
+        <Layout_main button={true} init={false} />
         <div>{children}</div>
       </body>
     </html>
