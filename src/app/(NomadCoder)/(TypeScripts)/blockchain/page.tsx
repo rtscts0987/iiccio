@@ -57,7 +57,7 @@ export default function Blcokchain() {
     <>
       <div>
         {blockchain.getBlocks().map((block: any) => (
-          <p>{JSON.stringify(block, null, 4)}</p>
+          <p key={block.hash}>{JSON.stringify(block, null, 4)}</p>
         ))}
       </div>
     </>
