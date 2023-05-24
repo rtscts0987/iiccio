@@ -58,11 +58,11 @@ export default function Layout_main({ button, init }: layout) {
           </div>
           <div className="flex justify-between mx-5 mt-1">
             <p>Typescripts : </p>
-            <Link
-              className="bg-sky-600 w-[150px] mr-[72.2%]"
-              href="/blockchain"
-            >
+            <Link className="bg-sky-600 w-[150px]" href="/blockchain">
               blockchain
+            </Link>
+            <Link className="bg-yellow-600 w-[150px]" href="/callsignatures">
+              callsignatures
             </Link>
           </div>
         </div>
